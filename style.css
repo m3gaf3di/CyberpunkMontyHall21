@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #0a0a0a; /* Dark background for better contrast */
+    color: #0ff; /* Neon text color */
+    background-image: url('https://www.dsogaming.com/wp-content/uploads/2023/04/Cyberpunk-2077-RTX-Path-Tracing-Overdrive-screenshots-1.jpg'); /* Add your image URL here */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Optional: Makes the background fixed during scroll */
+}
+
+
+.door {
+    font-size: 20px;
+    padding: 20px;
+    margin: 5px;
+    background-color: #121212; /* Dark button background */
+    border: 2px solid #0ff; /* Neon border */
+    color: #0ff; /* Neon text color */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.door:hover {
+    transform: scale(1.1);
+    background-color: #222; /* Slightly lighter background on hover */
+    cursor: pointer;
+}
+
+#restart {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #121212; /* Dark button background */
+    border: 2px solid #f0f; /* Different neon color for contrast */
+    color: #f0f; /* Neon text color */
+    display: none; /* Keep your existing style */
+    cursor: pointer;
+}
+
+#restart:hover {
+    background-color: #222; /* Slightly lighter background on hover */
+}
+
+#message {
+    color: #ff0; /* Another neon color for text */
+    font-size: 22px;
+}
